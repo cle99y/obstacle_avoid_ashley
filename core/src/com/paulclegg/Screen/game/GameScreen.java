@@ -95,7 +95,7 @@ public class GameScreen implements Screen {
                     GameManager.INSTANCE.addLife();
 
                 } else if ( type == ObjectType.POINTS ) {
-                    GameManager.INSTANCE.updateScore( 1000 );
+                    GameManager.INSTANCE.updateScore( 10 );  // could add this to GameConfig as a game constant
                 }
             }
         };
